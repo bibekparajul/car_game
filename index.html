@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="instruction">
+            <div class="info">
+                <h3>About Game</h3>
+                <p>This is a awesome car game...</p>
+                <ul class="instruction-list">
+                    <li>Press w to move forward</li>
+                    <li>Press s to move backward</li>
+                    <li>Press a to move left</li>
+                    <li>Press d to move right</li>
+                    <li>Press space to release bullet</li>
+                    <li>Press p to pause the game</li>
+                    <li>Press r to resume the game</li>
+
+                </ul>
+            </div>
+            <div class="buttons">
+                <button onclick="resetGame()">Start Game</button><br/>
+                <button onclick="pauseGame()">Pause Game</button><br/>
+                <button onclick="resumeGame()">Resume Game</button><br/>
+                
+            </div>
+        </div>
+        <canvas id="backBoard"></canvas>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
